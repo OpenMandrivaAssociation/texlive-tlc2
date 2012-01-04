@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-tlc2
 Version:	20060419
-Release:	1
+Release:	2
 Summary:	Examples from "The LaTeX Companion", second edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/tlc2
