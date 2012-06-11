@@ -1,12 +1,12 @@
-# revision 15878
+# revision 26096
 # category Package
 # catalog-ctan /info/examples/tlc2
-# catalog-date 2006-04-19 11:46:07 +0200
+# catalog-date 2010-10-24 16:46:02 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-tlc2
-Version:	20060419
-Release:	2
+Version:	20101024
+Release:	1
 Summary:	Examples from "The LaTeX Companion", second edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/tlc2
@@ -882,7 +882,6 @@ Wesley, 2004, ISBN 0-201-36299-6.
 %doc %{_texmfdistdir}/doc/latex/tlc2/B-3-1.ltx
 %doc %{_texmfdistdir}/doc/latex/tlc2/Escher.ps
 %doc %{_texmfdistdir}/doc/latex/tlc2/cat.ps
-%doc %{_texmfdistdir}/doc/latex/tlc2/companion.ctan
 %doc %{_texmfdistdir}/doc/latex/tlc2/elephant.ps
 %doc %{_texmfdistdir}/doc/latex/tlc2/indexexa.ltx
 %doc %{_texmfdistdir}/doc/latex/tlc2/jura.bib
