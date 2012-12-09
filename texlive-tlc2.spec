@@ -903,3 +903,20 @@ Wesley, 2004, ISBN 0-201-36299-6.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101024-1
++ Revision: 805157
+- Update to latest release.
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20060419-2
++ Revision: 756999
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20060419-1
++ Revision: 719770
+- texlive-tlc2
+- texlive-tlc2
+- texlive-tlc2
+
