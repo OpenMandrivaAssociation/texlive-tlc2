@@ -1,18 +1,12 @@
-# revision 26096
-# category Package
-# catalog-ctan /info/examples/tlc2
-# catalog-date 2010-10-24 16:46:02 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-tlc2
-Version:	20190228
+Version:	26096
 Release:	1
 Summary:	Examples from "The LaTeX Companion", second edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/tlc2
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -896,27 +890,10 @@ Wesley, 2004, ISBN 0-201-36299-6.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101024-1
-+ Revision: 805157
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20060419-2
-+ Revision: 756999
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20060419-1
-+ Revision: 719770
-- texlive-tlc2
-- texlive-tlc2
-- texlive-tlc2
-
