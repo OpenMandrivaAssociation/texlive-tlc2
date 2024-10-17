@@ -3,7 +3,7 @@ Version:	26096
 Release:	2
 Summary:	Examples from "The LaTeX Companion", second edition
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/tlc2
+URL:		https://www.ctan.org/tex-archive/info/examples/tlc2
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlc2.doc.r%{version}.tar.xz
